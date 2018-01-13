@@ -17,4 +17,4 @@ function deleteFromObjectByKey(object, key) {
   return newObject
 }
 
-deleteFromObjectByKey({telecaster: 'strat', cheese: 'cake'}, cheese)
+deleteFromObjectByKey({telecaster: 'strat', cheese: 'cake'}, 'cheese')
